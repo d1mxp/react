@@ -1,0 +1,44 @@
+.bottom {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  background-color: rgba(28, 28, 33, 1);
+  border-radius: 100px;
+  padding: 14px;
+  border: 1px solid rgba(47, 47, 55, 1);
+  margin: 5px;
+}
+
+.bottom:hover {
+  background-color: #070708;
+}
+
+.bord {
+  border: 1px solid rgba(47, 47, 55, 1);
+  border-radius: 100px;
+  background-color: #070708;
+}
+
+@media (max-width: 1440px) {
+  .bottom {
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    margin: 4px;
+  }
+  .bord {
+    height: 50px;
+  }
+}
+
+@media (max-width: 390px) {
+  .bottom {
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    margin: 4px;
+  }
+  .bord {
+    height: 50px;
+  }
+}
